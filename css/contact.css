@@ -1,0 +1,35 @@
+.contact-container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infor-contact{
+    height: 80%;
+    width: 80%;
+    border: 1px solid #aaa;
+    padding: 20px;
+    position: relative;
+}
+.infor-contact ul{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.infor-contact li{
+    font-size: 15px;
+}
+.infor-contact button{
+    border: none;
+    background-color: #f90;
+    color: #fff;
+    padding: 5px 10px;
+}
+.contact-img{
+    width:450px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}

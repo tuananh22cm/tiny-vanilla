@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiny-shop</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="/asset/css/fonts/fontawesome-free-5.12.1-web/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/feedback.css">
+</head>
+
+
+<body>
+  <div class="app">
+    <header class="header">
+          <!-- Gio hang -->
+          <div class="nav-bar-header row">
+          <div class="logo col-xl-2">
+            <img src="/asset/css/image/logo.png" style="width: 100px ;" alt="logo">
+            <p  >Tiny Shop</p>
+          </div>
+          <div class="nav-bar col-xl-10">
+            <ul class="list_item_nav">
+              <li>
+                <div class="search_box">
+                  <input type="text" name="search" placeholder="Tim kiem">
+                  <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+              </li>
+              <a href="./index.html"><li>Trang Chủ</li></a>
+              <a href="#" style="position: relative;" class="item-nav-category"><li>Danh Mục </li></a>
+              <ul class="nav-bar-category hidden">
+                <li>Rau Củ</li>
+                <li>Bánh Kẹo</li>
+                <li>Đồ Dùng Cá Nhân</li>
+              </ul>
+              <a href="./feedback.html" class="nav_feedback"><li>FeedBack</li></a>
+              <a href="./contact.html" class="nav_contact"><li>Liên Hệ</li></a>
+              <a href="#"> <div class="header__cart-wrap">
+                <a href="#" class="cart_icon_select"><i class="fa-solid fa-cart-shopping header__cart-icon"></i></a>
+                <span class="header__cart-notice">0</span>           
+              </div></a>
+              <a href="#"><li>
+                <div class="user-infor">
+                  <li class="header__navbar-item header__navbar-user">
+                    <img src="/asset/css/image/avatar.jpg" alt="" class="header__navbar-user-img">
+                    <span class="header__navbar-user-name">Ducbes</span>
+      
+                    <ul class="header__navbar-user-menu">
+                      <li class="header__navbar-user-item">
+                        <a href="#">Tài khoản của tôi</a>
+                      </li>
+                      <li class="header__navbar-user-item">
+                        <a href="#">Đơn mua</a>
+                      </li>
+                      <li class="header__navbar-user-item header__navbar-user-item--seperate">
+                        <a href="#">Đăng xuất</a>
+                      </li>
+                    </ul>
+                  </li></div>
+              </li></a>
+              
+             
+            </ul>
+          </div>
+
+
+        </div>
+
+
+      </header>
+        </div>
+
+    <!-- body  -->
+   <div class="feedback-container">
+       <div class="form-feedback">
+        <h2><i class="fa-solid fa-comments"></i> Góp Ý Với Chúng Tôi </h2>
+            <form action="#">
+                
+                <input type="text" placeholder="Họ và Tên">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Sdt">
+                <textarea placeholder="nhập góp ý của bạn :" name="feedback" cols="30" rows="10"></textarea>
+                <input type="submit" class="feedback_submit">
+            </form>
+       </div>
+       <img src="/asset/css/image/feedback.png" alt="feedback" class="img-feedback">
+   </div>
+    <footer class="footer">
+      <div class="grid">
+        <div class="grid__row">
+          <div class="grid__column-2-4">
+            <h3 class="footer_heading">Chăm sóc khách hàng</h3>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">Foods shoP Mall</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">Hướng dẫn mua hàng</a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid__column-2-4">
+            <h3 class="footer_heading">Giới thiệu</h3>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">Giới thiệu về Foods shop Việt Nam</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">Tuyển dụng</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">Điều khoản sử dụng</a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid__column-2-4">
+            <h3 class="footer_heading">Địa chỉ</h3>
+
+          </div>
+          <div class="grid__column-2-4">
+            <h3 class="footer_heading">Theo dõi chúng tôi</h3>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">
+                  <i class="footer-item__icon fab fa-facebook"></i>
+                  facebook
+                </a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">
+                  <i class="footer-item__icon fab fa-instagram"></i>
+                  Instagram
+                </a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-item__link">
+                  <i class="footer-item__icon fab fa-linkedin"></i>
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid__column-2-4">
+            <h3 class="footer_heading">Vào cửa hàng trên ứng dụng</h3>
+            <div class="footer__download">
+              <img src="/asset/css/image/QR_Code.png" alt="download QR" class="footer__download-qr">
+              <div class="footer__download-apps">
+                <a href="#" class="footer__download-app-link">
+                  <img src="/asset/css/image/CH_play.png" alt="CH play" class="footer__download-app-img">
+                </a>
+                <a href="#" class="footer__download-app-link">
+                  <img src="/asset/css/image/app_store.png" alt="App store" class="footer__download-app-img">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+      <div class="footer__bottom">
+        <div class="grid">
+          <p class="footer__text">♥ Powered by Ducbes - Web bán hàng online uy tín, chất lượng và chuyên nghiệp nhất
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/js/home.js"></script>
+</body>
+
+</html>
